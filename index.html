@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio - MC Invest Asesoría & Consultoría</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header.main-header {
+      background-color: #1f2d3d;
+      color: #fff;
+      padding: 20px 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header .logo h1 {
+      font-size: 2.5em;
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    header .logo p {
+      font-size: 1.3em;
+      color: #bbb;
+      margin-top: 5px;
+    }
+
+    nav.main-nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    nav.main-nav ul li {
+      margin-left: 30px;
+    }
+
+    nav.main-nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    nav.main-nav ul li a:hover {
+      background-color: #ffcc00;
+      transform: translateY(-2px);
+    }
+
+    /* Main Section */
+    main {
+      padding: 40px 0;
+      background-color: #fff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .section {
+      text-align: center;
+      margin-bottom: 60px;
+      padding: 40px 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      font-size: 2.5em;
+      color: #1f2d3d;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 1.2em;
+      color: #555;
+      margin: 20px 0;
+    }
+
+    button, .button {
+      background-color: #ffcc00;
+      color: #1f2d3d;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    button:hover, .button:hover {
+      background-color: #4a90e2;
+      transform: translateY(-2px);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1f2d3d;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav.main-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav.main-nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <h1>MC Invest</h1>
+        <p>Asesoría & Consultoría</p>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="inversiones-capital.html">Inversiones</a></li>
+          <li><a href="asesoria.html">Asesoría</a></li>
+          <li><a href="consultoria.html">Consultoría</a></li>
+          <li><a href="otros-servicios.html">Otros Servicios</a></li>
+          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="intro" class="section">
+      <div class="container">
+        <h2>Asesoría y Consultoría Integral</h2>
+        <p>Ofrecemos servicios de consultoría en áreas de inversiones, capital, derecho penal, laboral, contabilidad, y más.</p>
+        <a href="servicios.html" class="button">Ver Servicios</a>
+      </div>
+    </section>
+
+    <section id="expertise" class="section">
+      <div class="container">
+        <h2>Nuestra Experiencia</h2>
+        <p>Contamos con un equipo de expertos en diversas áreas, listos para ayudar a tu empresa a alcanzar su máximo potencial.</p>
+      </div>
+    </section>
+
+    <section id="mission" class="section">
+      <div class="container">
+        <h2>Nuestra Misión</h2>
+        <p>Brindar asesoría de calidad que impulse el crecimiento y la sostenibilidad de nuestros clientes.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos una variedad de servicios adaptados a las necesidades de nuestros clientes: consultoría financiera, asesoría legal, gestión de proyectos y más.</p>
+        <a href="servicios.html" class="button">Descubre Más</a>
+      </div>
+    </section>
+
+    <section id="values" class="section">
+      <div class="container">
+        <h2>Valores que Nos Guián</h2>
+        <p>Nos comprometemos a la ética, la transparencia y el servicio al cliente en cada proyecto que emprendemos.</p>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2>Lo Que Dicen Nuestros Clientes</h2>
+        <p>"MC Invest transformó nuestra manera de trabajar, aumentando significativamente nuestra eficiencia." - Cliente Satisfecho</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes preguntas? ¡Estamos aquí para ayudarte! <a href="contacto.html" class="button">Contáctanos</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 MC Invest Asesoría & Consultoría. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
